@@ -21,6 +21,9 @@
     .nav-link, .tanitiText{
         font-size: 1.75rem !important;
     }
+     .footerText{
+        font-size: 1.3rem !important;
+     }
 
     .bookBtn{
         background-color: #FFDB58 !important;
