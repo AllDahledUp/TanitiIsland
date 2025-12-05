@@ -1,7 +1,7 @@
     body{
         background-color: #f8f9fa !important
     }
-    #diningPage{
+    #diningPage, #FAQPage{
         min-height: 100vh;
     }
     .hideMe{
