@@ -55,13 +55,14 @@
     <label for="inputZip" class="form-label">Zip</label>
     <input type="text" class="form-control" id="inputZip">
   </div>
+  <div class="text-center mb-5"><button type="submit" class="btn btn-lg bookBtn fw-bold">Submit</button></div>
 </form>    
 </div>
     <footer id="footer"></footer>
     <script>
         $(function () {
-      $('#footer').load('/TanitiIsland/Footer.html');
-      $('#header').load('/TanitiIsland/Header.html', function () {
+      $('#footer').load('Footer.html');
+      $('#header').load('Header.html', function () {
                 $("#bookNow").addClass('active');
                 $("#bookingPage").removeClass('hideMe');
             });
