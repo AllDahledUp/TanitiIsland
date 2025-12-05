@@ -12,9 +12,21 @@
     .navbar{
         min-height: 60px;
     }
-    .navbar-brand{
+    .navbar-brand, .largeText{
         font-size: 2.5rem !important;
     }
-    .nav-link{
+    .largeText{
+        font-size: 5rem !important;
+    }
+    .nav-link, .tanitiText{
         font-size: 1.75rem !important;
     }
+
+    .bookBtn{
+        background-color: #FFDB58 !important;
+    }
+    
+    .bookBtn:hover, .bookBtn:active, .bookBtn:focus{
+        background-color: #ed7315 !important;
+    }
+    
