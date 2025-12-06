@@ -11,7 +11,7 @@
     #FAQPage ul li{
         font-size: 1.3rem !important;
     }
-    .hideMe{
+    .hideMe, .hidden{
       display: none;
     }
     #header{

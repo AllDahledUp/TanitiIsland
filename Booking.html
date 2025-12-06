@@ -16,6 +16,9 @@
     <div class="container hideMe" id="bookingPage">
         <h1 class="text-center mt-5">Taniti Booking</h1>
         <h2 class="h4 text-center mb-5">Provide your contact information and one of our trained staff will be in contact within the hour!</h2>
+        <div class="alert alert-success hidden" id="successAlert" role="alert">
+            Booking successfully submitted!
+        </div>
 <form class="row g-3">
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">First Name</label>
@@ -56,7 +59,7 @@
     <label for="inputZip" class="form-label">Zip</label>
     <input type="text" class="form-control" id="inputZip">
   </div>
-  <div class="text-center mb-5"><button type="submit" class="btn btn-lg bookBtn fw-bold">Submit</button></div>
+  <div class="text-center mb-5"><button type="button" class="btn btn-lg bookBtn fw-bold" onclick="clicked()">Submit</button></div>
 </form>    
 </div>
     <footer id="footer"></footer>
@@ -68,6 +71,9 @@
                 $("#bookingPage").removeClass('hideMe');
             });
         });
+        function clicked(){
+          $("#successAlert").removeClass('hidden');
+        }
     </script>
 </body>
 
