@@ -1,11 +1,15 @@
     body{
         background-color: #f8f9fa !important
     }
-    #foodPage{
-        min-height: 100vh;
+
+     #homePage, #foodPage, #lodgingPage{
+        min-height: 80vh;
     }
     #bookingPage, #FAQPage{
         min-height: 70vh;
+    }
+    #FAQPage ul li{
+        font-size: 1.3rem !important;
     }
     .hideMe{
       display: none;
@@ -38,4 +42,12 @@
     .bookBtn:hover, .bookBtn:active, .bookBtn:focus{
         background-color: #ed7315 !important;
     }
-    
+
+@media (max-width: 1100px) {
+  #headerIcon {
+    display: none !important;
+  }
+    .navbar-brand, .nav-link, .tanitiText, .largeText{
+        font-size: 1.25rem !important;
+    }
+}
